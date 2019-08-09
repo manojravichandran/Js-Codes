@@ -5,21 +5,23 @@
 
 
 var student={
-    name:"manoj",
+    name:"mj",
     age:19,
-    sex:"male"
+    gender:"male"
 }
 
 var techer={
-    name:"mada",
+    name:"ab",
     age:39,
-    sex:"male"
+    gender:"male"
 }
-var god={
+var police={
     name:"siva",
-    age:0,
-    sex:"male"
+    age:30,
+    gender:"male"
 }
+
+
 
 let user=new Map()
 
@@ -27,20 +29,18 @@ user.set('a',student)
 
 user.set('b',techer)
 
-user.set('c',god)
+user.set('c',police)
 
 // let x=user.size ///big advantage of objects
 // console.log(x)
 // console.log(user.get('a'))
-//console.log(user.values())
+//console.log(user.values()) //prints all
 
 // for( let [x,y] of user.entries()) //because of object
 // {
 //     console.log(x)
 //     console.log(y.name)
 // }
-
-
 user.forEach(function(x,y)
 {
     console.log(x.name)  //set
