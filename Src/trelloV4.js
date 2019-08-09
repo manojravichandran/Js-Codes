@@ -5,12 +5,12 @@ let cars=['benz','audi','tesla','hundai']
 
 
 const newtodo=[{
-title:'bath',
+title:'wake',
 time:2
 },
 {
 
-    title:'brush',
+    title:'ride',
     time:1
 },
 {
