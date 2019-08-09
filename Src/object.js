@@ -8,4 +8,4 @@ leng:'3.2'
 //always use :
 //never miss comma
 
-console.log(`The objects is ${tube.title} and ${tube.song} and the lenght is ${tube.leng}`);
+console.log(`The objects is ${tube.title} and ${tube.song} and the lenght is ${tube.leng}`); //template literals
